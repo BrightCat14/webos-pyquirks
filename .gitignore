@@ -1,0 +1,73 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+MANIFEST
+pip-wheel-metadata/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# Installers / logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Test / coverage / tox
+.tox/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+nosetests.xml
+test-results/
+
+# Type checkers / linters
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+
+# IDEs
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+*.bak
+
+# Project-specific: TV firmware dumps and audit output
+# audit_tv_python.py --stdlib points at an unpacked dump, don't commit it
+dump/
+usr/
+firmware/
+*.log
+audit-*.txt
+audit-*.log
